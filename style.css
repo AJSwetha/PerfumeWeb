@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* NAV Section */
+nav{
+    background-color:black;
+    color:white;
+    padding:20px;
+}
+/* Ellam ore line varathukku  display inline kudkkalam */
+nav h1,ul,li{
+    display:inline;
+}
+ul{
+    margin-left:60%;
+}
+li{
+    color:gray;
+    font-size:19px;
+    cursor:pointer;
+    padding-left:10px;
+}
+li:hover{
+    color:white;
+}
+/* SEARCH Section */
+input{
+    width:60%;
+    padding:15px;
+}
+.searchBar{
+    padding:60px;
+    text-align:center;
+}
+.box{
+   border:5px solid black;
+   display:inline-block;
+}
+.box:hover{
+    background-color:black;
+    color:white;
+}
+.products img{
+    width:250px;
+    height:270px;
+}
+.products{
+    text-align:center;
+}
+/* ABOUT Section */
+.about{
+ text-align:center;
+ margin-top:30px;
+
+}
+.about h1{
+    /* color:rgb(173, 11, 173);
+    font-size:35px; */
+     text-align: center;
+    color:rgb(173, 11, 173);
+    font-size:34px;
+    letter-spacing:3px;
+}
+.about span{
+    color:rgb(173, 11, 173);
+}
+.about p{
+    font-size:19px;
+    padding:40px;
+    line-height:35px;
+    text-align:justify;
+}
+/* BackgroundImg section */
+.backimg{
+    background-image:url("https://img.freepik.com/premium-vector/minimalist-fragrance-bottle-illustration_1394169-2358.jpg?semt=ais_hybrid&w=740&q=80");
+    min-height:100vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:40px auto;
+}
+#firsthead{
+    padding-top:150px;
+    color:rgb(173, 11, 173);
+}
+#secondhead{
+    color:orange;
+}
+.backimg h1{
+    padding-top:50px;
+    padding-left:50px;
+    font-size:50px;
+    letter-spacing:10px;
+    color:rgb(173, 11, 173);
+}
+/* Selling Products */
+.sellingPage{
+    background-color:rgb(248, 203, 152);
+    padding:30px 0px 40px 0px;
+} 
+.sellingPage h1{
+    text-align: center;
+    color:rgb(173, 11, 173);
+    font-size:34px;
+    letter-spacing:3px;
+}
+#containerSell{
+    width:100%;
+    max-width:1200px;
+    /* background-color:; */
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:25px;
+    margin:15px auto;
+}
+.grid{
+    height:340px;    
+    background-color: aliceblue;       
+    border-radius:10px;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    box-sizing:border-box;        
+}
+.grid img{
+    width:270px;
+}
+.grid h2{
+  color:black;
+}
+.grid p{
+    
+     color:rgb(173, 11, 173);
+    font-size:20px;
+     padding:10px;
+    font-weight: bold;
+}
+.grid h2,.grid p{
+    text-align: center;
+}
+/* Footer */
+.contact{
+    background-color: black;
+    color:white;
+
+}
+.contact h4{
+    font-size:20px;
+     text-align: center; 
+    padding-top:15px;
+}
+.contact p{
+   margin-top:8px;
+   text-align: center; 
+   padding-bottom:8px;
+}
+.quote{
+font-size:17px;
+color:violet;
+}
+/* Media Queries Used  */
+@media(max-width:1170px){
+    ul{
+    margin-left:42%;
+}
+li{
+    padding-left:25px;
+}
+}
+@media(max-width:940px){
+ul{
+margin-left:36%;
+}
+li{
+    padding-left:15px;
+}
+}
+@media(max-width:800px){
+ul{
+    margin-left:30%;
+}
+.box{
+ border:5px solid black;
+ display:inline-block;
+ margin:10px auto;
+}
+}
+@media(max-width:715px){
+ul{
+    margin-left:25%;
+}
+}
+@media(max-width:672px){
+ul{
+    margin-left:18%;
+}
+}
+@media(max-width:620px){
+li{
+    font-size:17px;
+}
+}
+@media(max-width:580px){
+ul{
+    margin-left:12%;
+}
+li{
+    font-size:16px;
+    padding-left:8px;
+}
+}
